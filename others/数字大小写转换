@@ -6,16 +6,16 @@ int main()
   int num[6];//默认支持六位数
   char unit [10][4]={"零","壹","贰","叁","肆","伍","陆","柒","捌","玖"};
   printf("请输入小写数字:");
-  scanf("%d",&num);
+  scanf("%d",&number);
   //取出每个数字
-  while(num>0)
+  while(number>0)
   {
-    num[i]=num%10;
-    num/=10;
+    num[i]=number%10;
+    number/=10;
     i++;
     count++;
   }
-  printf("用户输入的数字位数是%d:\n",count)
+  printf("用户输入的数字位数是%d:\n",count);
   for(i=0;i<count;i++)
   {
     printf("%d %s\n",num[i],unit[num[i]]);
