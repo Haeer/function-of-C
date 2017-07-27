@@ -1,2 +1,2 @@
-# function-of-C-
+# function-of-C
 Some function of C
