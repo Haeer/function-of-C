@@ -1,0 +1,21 @@
+/*
+1 需不需要返回值
+2 函数名称是什么
+3 需要给予函数参数么
+*/
+#include <stdio.h>
+#include <math.h>
+void name();//函数申明
+//函数体
+void name()
+{
+	double s,r;
+	scanf("%.2lf",&r);
+	s= PI*r*r;
+	printf("%.2lf",s);
+}
+
+int main()
+{
+	void name();
+}
